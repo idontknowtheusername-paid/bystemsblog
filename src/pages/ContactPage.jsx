@@ -6,15 +6,16 @@ import ContactForm from '@/components/ContactForm';
 
 const ContactPage = () => {
   const contactInfo = [
-    { icon: <Mail className="h-6 w-6" />, label: "Email", value: "contact@example.com", href: "mailto:contact@example.com" },
-    { icon: <Phone className="h-6 w-6" />, label: "Téléphone", value: "+33 6 12 34 56 78", href: "tel:+33612345678" },
-    { icon: <MapPin className="h-6 w-6" />, label: "Adresse", value: "Paris, France", href: "https://maps.google.com/?q=Paris,France" },
+    { icon: <Mail className="h-6 w-6" />, label: "Email", value: "bienvenu082003@gmail.com", href: "mailto:bienvenu082003@gmail.com" },
+    { icon: <Phone className="h-6 w-6" />, label: "Téléphone", value: "+229 65 40 40 59", href: "tel:+22965409059" },
+    { icon: <MapPin className="h-6 w-6" />, label: "Adresse", value: "Parakou, Benin", href: "https://maps.google.com/?q=Parakou,Benin" },
   ];
   
   const socialLinks = [
-    { icon: <Github className="h-6 w-6" />, label: "GitHub", href: "https://github.com" },
-    { icon: <Twitter className="h-6 w-6" />, label: "Twitter", href: "https://twitter.com" },
-    { icon: <Linkedin className="h-6 w-6" />, label: "LinkedIn", href: "https://linkedin.com" },
+    { icon: <Github className="h-6 w-6" />, label: "GitHub", href: "https://github.com/bienvenu-cyber" },
+    { icon: <Twitter className="h-6 w-6" />, label: "Twitter", href: "https://twitter.com/bienvenutongui" },
+    { icon: <Linkedin className="h-6 w-6" />, label: "LinkedIn", href: "https://www.linkedin.com/in/bienvenutongui" },
+    { icon: <Intagram classname="h-6 w-6" />, label: "Intagram", href: "https://www.instagram.com/bv_4real" },
   ];
 
   return (
