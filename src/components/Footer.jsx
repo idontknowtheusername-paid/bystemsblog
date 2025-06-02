@@ -29,7 +29,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <div className="space-y-4">
             <Link to="/" className="flex items-center space-x-2">
-              <span className="text-xl font-bold gradient-text">DevFolio</span>
+              <span className="text-xl font-bold gradient-text">BystemsFolio</span>
             </Link>
             <p className="text-muted-foreground text-sm max-w-xs">
               Un espace personnel pour partager mes projets, compétences et réflexions sur le développement web et la technologie.
