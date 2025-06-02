@@ -1,16 +1,15 @@
+
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Mail, Phone, MapPin, Github, Twitter, Linkedin, Instagram, AtSign  } from 'lucide-react';
+import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const HeroSection = () => {
   const socialLinks = [
-    { icon: <Github className="h-5 w-5" />, href: "https://github.com/bienvenu-cyber", label: "GitHub" },
-    { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com/in/bienvenutongui", label: "LinkedIn" },
+    { icon: <Github className="h-5 w-5" />, href: "https://github.com", label: "GitHub" },
+    { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com", label: "LinkedIn" },
     { icon: <Mail className="h-5 w-5" />, href: "mailto:contact@example.com", label: "Email" },
-    { icon: <Instagram className="h-5 w-5" />, href: "https://www.instagram.com/bv_4real", label: "Instagram" },
-    { icon: <AtSign className="h-5 w-5" />, href: "https://threads.net/votre-username", label: "Threads" },
   ];
 
   return (
@@ -134,4 +133,4 @@ const HeroSection = () => {
   );
 };
 
-export default HeroSect
+export default HeroSection;
