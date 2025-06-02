@@ -37,7 +37,7 @@ const AboutPage = () => {
                 <img   
                   className="w-full h-auto"
                   alt="Photo de profil du développeur"
-                 src="https://images.unsplash.com/photo-1666892666066-abe5c4865e9c" />
+                 src="https://images" />
               </div>
               
               <motion.div
@@ -61,11 +61,11 @@ const AboutPage = () => {
             transition={{ duration: 0.5, delay: 0.4 }}
             className="space-y-6"
           >
-            <h2 className="text-3xl font-bold">John Doe</h2>
-            <h3 className="text-xl text-primary">Développeur Frontend Senior</h3>
+            <h2 className="text-3xl font-bold"> Bienvenu Rabe</h2>
+            <h3 className="text-xl text-primary">Développeur full stack Junior</h3>
             
             <p className="text-muted-foreground">
-              Passionné par le développement web depuis plus de 7 ans, je me spécialise dans la création d'interfaces utilisateur modernes et performantes. J'aime résoudre des problèmes complexes et créer des expériences utilisateur exceptionnelles.
+              Passionné par le développement web depuis plus de 4 ans, je me spécialise dans la création d'interfaces utilisateur modernes et performantes. J'aime résoudre des problèmes complexes et créer des expériences utilisateur exceptionnelles.
             </p>
             
             <p className="text-muted-foreground">
