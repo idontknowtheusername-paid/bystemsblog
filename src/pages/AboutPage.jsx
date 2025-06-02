@@ -69,7 +69,7 @@ const AboutPage = () => {
             </p>
             
             <p className="text-muted-foreground">
-              En dehors du code, je m'intéresse à la photographie, aux voyages et à la musique. J'aime également partager mes connaissances à travers des articles de blog et des conférences.
+              En dehors du code, je m'intéresse au football, aux voyages et à la musique. J'aime également partager mes connaissances à travers des articles de blog et des posts sur mes reseaux.
             </p>
             
             <div className="flex flex-wrap gap-2">
