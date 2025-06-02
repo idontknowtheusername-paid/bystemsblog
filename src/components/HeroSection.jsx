@@ -1,15 +1,19 @@
 
 import React from 'react';
-import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { ArrowRight, Github, Linkedin, Mail } from 'lucide-react';
-import { Button } from '@/components/ui/button';
+import { motion } from 'framer-motion';
+import { Mail, Phone, MapPin, Github, Twitter, Linkedin, Instagram, AtSign } from 'lucide-react';
 
-const HeroSection = () => {
+const Footer = () => {
+  const currentYear = new Date().getFullYear();
+  
   const socialLinks = [
-    { icon: <Github className="h-5 w-5" />, href: "https://github.com", label: "GitHub" },
-    { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: <Mail className="h-5 w-5" />, href: "mailto:contact@example.com", label: "Email" },
+    { icon: <Github className="h-6 w-6" />, label: "GitHub", href: "https://github.com/bienvenu-cyber" },
+    { icon: <Twitter className="h-6 w-6" />, label: "Twitter", href: "https://twitter.com/bienvenutongui" },
+    { icon: <Linkedin className="h-6 w-6" />, label: "LinkedIn", href: "https://linkedin.com/in/bienvenutongui" },
+    { icon: <Instagram className="h-6 w-6" />, label: "Instagram", href: "https://www.instagram.com/bv_4real" },
+    { icon: <AtSign className="h-6 w-6" />, label: "Threads", href: "https://threads.net/votre-username" },
+    { icon: <Mail className="h-6 w-6" />, label: "Email", href: "mailto:bienvenu082003@gmail.com" },
   ];
 
   return (
