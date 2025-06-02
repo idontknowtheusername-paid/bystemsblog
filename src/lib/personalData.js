@@ -59,25 +59,15 @@ export const experiences = [
       "Création d'une bibliothèque de composants réutilisables"
     ]
   },
+
   {
-    title: "Développeur Fullstack",
-    company: "WebSolutions",
-    location: "Lyon, France",
-    period: "2018 - 2021",
-    description: "Développement d'applications web complètes avec React, Node.js et MongoDB. Collaboration avec les designers et les product managers pour créer des expériences utilisateur exceptionnelles.",
+    title: "Automatisation",
+    company: "TG",
+    location: "Parakou, Benin",
+    period: "2025",
+    description: "Création de workflow web et d'applications pour divers clients. Utilisation de n8n, HTML, CSS, JavaScript et jQuery. Collaboration étroite avec les designers pour implémenter des designs pixel-perfect.",
     achievements: [
-      "Développement d'une plateforme e-commerce qui a généré 1M€ de revenus",
-      "Mise en place d'un système d'authentification sécurisé",
-      "Optimisation des requêtes de base de données, réduisant le temps de réponse de 60%"
-    ]
-  },
-  {
-    title: "Développeur Frontend",
-    company: "DigitalAgency",
-    location: "Bordeaux, France",
-    period: "2016 - 2018",
-    description: "Création de sites web et d'applications pour divers clients. Utilisation de HTML, CSS, JavaScript et jQuery. Collaboration étroite avec les designers pour implémenter des designs pixel-perfect.",
-    achievements: [
+      "Mise en place d'agents autonome pour execution de taches administratives",
       "Développement de 15+ sites web pour des clients de renom",
       "Mise en place d'un workflow de développement efficace",
       "Formation de l'équipe aux nouvelles technologies frontend"
@@ -87,27 +77,27 @@ export const experiences = [
 
 export const education = [
   {
-    degree: "Master en Développement Web",
+    degree: "Licence en Droit des Affaires",
     institution: "Université de Technologie",
-    location: "Paris, France",
-    period: "2014 - 2016",
+    location: "Cotonou, Benin",
+    period: "2020 - 2023",
     description: "Spécialisation en développement web et mobile. Projets pratiques et stage en entreprise."
   },
   {
-    degree: "Licence en Informatique",
-    institution: "Université des Sciences",
-    location: "Lyon, France",
-    period: "2011 - 2014",
+    degree: "Certificat en Informatique",
+    institution: " Atlanta ",
+    location: "Atl, USA",
+    period: "2023 - 2025",
     description: "Formation générale en informatique, algorithmes, structures de données et programmation."
   }
 ];
 
 export const testimonials = [
   {
-    name: "Sophie Martin",
+    name: "Marvin White",
     position: "CEO, TechStartup",
     content: "Un développeur exceptionnel qui a transformé notre vision en réalité. Son expertise technique et sa créativité ont été essentielles pour le succès de notre projet.",
-    avatar: "sophie-martin"
+    avatar: "Marvin White"
   },
   {
     name: "Thomas Dubois",
