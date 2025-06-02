@@ -1,17 +1,18 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Github, Twitter, Linkedin, Mail, Heart } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Twitter, Linkedin, Instagram, AtSign } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
   
   const socialLinks = [
-    { icon: <Github className="h-5 w-5" />, href: "https://github.com", label: "GitHub" },
-    { icon: <Twitter className="h-5 w-5" />, href: "https://twitter.com", label: "Twitter" },
-    { icon: <Linkedin className="h-5 w-5" />, href: "https://linkedin.com", label: "LinkedIn" },
-    { icon: <Mail className="h-5 w-5" />, href: "mailto:contact@example.com", label: "Email" },
+    { icon: <Github className="h-6 w-6" />, label: "GitHub", href: "https://github.com/bienvenu-cyber" },
+    { icon: <Twitter className="h-6 w-6" />, label: "Twitter", href: "https://twitter.com/bienvenutongui" },
+    { icon: <Linkedin className="h-6 w-6" />, label: "LinkedIn", href: "https://linkedin.com/in/bienvenutongui" },
+    { icon: <Instagram className="h-6 w-6" />, label: "Instagram", href: "https://www.instagram.com/bv_4real" },
+    { icon: <AtSign className="h-6 w-6" />, label: "Threads", href: "https://threads.net/votre-username" },
+    { icon: <Mail className="h-6 w-6" />, label: "Email", href: "mailto:bienvenu082003@gmail.com" },
   ];
 
   const footerLinks = [
@@ -91,7 +92,7 @@ const Footer = () => {
         
         <div className="border-t border-border mt-8 pt-8 flex flex-col sm:flex-row justify-between items-center">
           <p className="text-muted-foreground text-sm flex items-center">
-            © {currentYear} DevFolio. Créé avec <Heart className="h-4 w-4 mx-1 text-red-500" /> et React.
+            © {currentYear} BystemsFolio. by Beyond Logic
           </p>
           <p className="text-muted-foreground text-sm mt-2 sm:mt-0">
             Tous droits réservés
