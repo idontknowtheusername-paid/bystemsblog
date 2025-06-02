@@ -8,7 +8,7 @@ const ContactPage = () => {
   const contactInfo = [
     { icon: <Mail className="h-6 w-6" />, label: "Email", value: "contact@example.com", href: "mailto:contact@example.com" },
     { icon: <Phone className="h-6 w-6" />, label: "Téléphone", value: "+33 6 12 34 56 78", href: "tel:+33612345678" },
-    { icon: <MapPin className="h-6 w-6" />, label: "Adresse", value: "Paris, France", href: "https://maps.google.com/?q=Paris,France" },
+    { icon: <MapPin className="h-6 w-6" />, label: "Adresse", value: "Cotonou, Benin", href: "https://maps.google.com/?q=Paris,France" },
   ];
   
   const socialLinks = [
