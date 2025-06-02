@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Phone, MapPin, Github, Twitter, Linkedin, Instagram } from 'lucide-react';
+import { Mail, Phone, MapPin, Github, Twitter, Linkedin, Instagram, AtSign } from 'lucide-react';
 import ContactForm from '@/components/ContactForm';
 
 const ContactPage = () => {
@@ -16,6 +16,7 @@ const ContactPage = () => {
     { icon: <Twitter className="h-6 w-6" />, label: "Twitter", href: "https://twitter.com/bienvenutongui" },
     { icon: <Linkedin className="h-6 w-6" />, label: "LinkedIn", href: "https://linkedin.com/in/bienvenutongui" },
     { icon: <Instagram className="h-6 w-6" />, label: "Instagram", href: "https://www.instagram.com/bv_4real" },
+    { icon: <AtSign className="h-6 w-6" />, label: "Threads", href: "https://threads.net/votre-username" },
 
   ];
 
