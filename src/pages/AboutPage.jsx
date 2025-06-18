@@ -37,7 +37,7 @@ const AboutPage = () => {
                 <img   
                   className="w-full h-auto"
                   alt="Photo de profil du développeur"
-                 src="https://images" />
+                 src="https://imgur.com/a/tLZMZIo" />
               </div>
               
               <motion.div
